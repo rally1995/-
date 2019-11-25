@@ -1,0 +1,212 @@
+{
+  "id": "1156382",
+  "name": "PAD MES",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8012037",
+      "name": "status - delete",
+      "font_class": "status-delete",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "8012038",
+      "name": "status - edit",
+      "font_class": "status-edit",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "8012047",
+      "name": "status - Preserve-and-add",
+      "font_class": "status-Preserve-and-add",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "8661186",
+      "name": "start",
+      "font_class": "start",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "8661187",
+      "name": "Detailed",
+      "font_class": "Detailed",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "8661189",
+      "name": "suspend",
+      "font_class": "suspend",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "8661190",
+      "name": "End",
+      "font_class": "End",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "8661191",
+      "name": "data",
+      "font_class": "data",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "8661192",
+      "name": "Device-instructions",
+      "font_class": "Device-instructions",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "8661204",
+      "name": "Material-directive",
+      "font_class": "Material-directive",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "8763243",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "8763244",
+      "name": "verificationai",
+      "font_class": "verificationai",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "8763245",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "8763434",
+      "name": "return",
+      "font_class": "return",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "8790327",
+      "name": "logo",
+      "font_class": "logo",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "9155246",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "9874630",
+      "name": "production _planning",
+      "font_class": "production_planning",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "10808860",
+      "name": "General-Settings",
+      "font_class": "General-Settings",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "10851861",
+      "name": "State-circle",
+      "font_class": "State-circle",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "10852413",
+      "name": "Double-left-arrow",
+      "font_class": "Double-left-arrow",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "10857668",
+      "name": "Newspaper-inspection",
+      "font_class": "Newspaper-inspection",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "10857670",
+      "name": "at-present",
+      "font_class": "at-present",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "10857671",
+      "name": "exchange",
+      "font_class": "exchange",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "10857672",
+      "name": "Arrow",
+      "font_class": "Arrow",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "10857673",
+      "name": "quality",
+      "font_class": "quality",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "10857674",
+      "name": "start-up",
+      "font_class": "start-up",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "10857675",
+      "name": "product-details",
+      "font_class": "product-details",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "10857676",
+      "name": "Explain",
+      "font_class": "Explain",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "10857678",
+      "name": "switch",
+      "font_class": "switch",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    }
+  ]
+}

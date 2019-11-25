@@ -1,0 +1,76 @@
+.wrap
+  height 100%
+  display flex
+  .aside
+    transition width .2s
+    height 100%
+    display flex
+    overflow hidden
+    .collapse
+      position absolute
+      top 44%
+      left 98px
+      display block
+      line-height 40px
+      text-align center
+      cursor pointer   
+      height 40px
+      width 0
+      border-right 18px solid #ffffff
+      border-top 9px solid transparent
+      border-bottom 9px solid transparent
+      font-family 'iconfont' 
+      font-size 18px
+      font-weight bold
+      z-index 999
+      clear both
+      &:before
+        content '\e68a'
+    .uncollapse
+      position absolute
+      top 44%
+      left 78px
+      display block
+      line-height 40px
+      text-align center
+      cursor pointer
+      height 40px
+      width 0
+      border-left 18px solid #dededf
+      border-top 9px solid transparent
+      border-bottom 9px solid transparent
+      font-family 'iconfont' 
+      font-size 18px
+      font-weight bold
+      z-index 999
+      clear both
+      transition-delay .2s
+      &:before
+        content '\e687'
+        position absolute
+        left -18px
+  .container
+      .container-item
+        background-color #dededf
+        padding 8px
+        .menuCollapse
+          &:after
+            position absolute
+            top 44%
+            left 78px
+            z-index 10
+            content '\e687'
+            display block
+            line-height 40px
+            text-align center
+            cursor pointer   
+            height 40px
+            width 0
+            border-top 9px solid transparent
+            border-bottom 9px solid transparent
+            font-family 'iconfont' 
+            font-size 14px
+            font-weight bold
+.el-container >>> .el-header
+  height 50px !important
+  padding 0

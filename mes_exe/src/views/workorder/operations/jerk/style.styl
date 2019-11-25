@@ -1,0 +1,129 @@
+.wrap
+    display flex
+    justify-content space-between
+    height 100%
+
+    &-h3
+        padding 10px 16px
+        font-size 18px
+        font-weight bold
+        border-bottom 1px solid #dedede
+        box-sizing border-box
+        flex none
+
+    &-body
+        flex auto
+        display flex
+        flex-flow column nowrap
+
+        h3
+            $font-title()
+            border-bottom 1px solid $color-decoration
+            margin 0 16px
+            flex auto
+            height 50%
+
+        &-contain
+            flex auto
+            padding 0 16px
+            height 50%
+
+            & > * + *
+                margin-left 48px
+
+    &-buttons
+        padding 16px
+
+        & >>> .el-button
+            height 100%
+            max-height 10vh
+
+        & >>> .el-dropdown
+            height 100%
+            max-height 10vh
+            margin-left 10px
+
+    &-title
+        width 10%
+        border-right 1px solid $color-decoration
+        text-align center
+        flex none
+
+        h3
+            text-align center
+            vertical-align middle
+            display inline-block
+            $font-title()
+
+            .iconfont
+                color $color-blue
+                font-size 35px
+                display block
+                margin-bottom 2px
+
+    &-functions
+        align-items stretch
+        flex auto
+        display flex
+        flex-flow column nowrap
+
+        dl
+            flex auto
+            margin 0
+            display flex
+            border-top 1px solid $color-decoration
+
+            &:first-child
+                border-top none
+
+            dt
+                text-align center
+                width 8%
+                flex none
+
+            dd
+                margin 0
+                flex auto
+                margin-left ml = -3%
+                padding-bottom 2%
+                display flex
+                flex-flow row wrap
+                align-content center
+
+                & >>> .el-button
+                    width 16%
+                    margin-left ml * -1
+                    margin-top 2%
+                    height 50px
+
+.bottom
+    margin-bottom -16px
+    margin-left -16px
+    margin-right -16px
+    height 60px
+    border none
+    flex none
+    display flex
+
+    & >>> .el-button
+        flex auto
+        margin 0
+        border-radius 0
+        border none
+        background-color #3d509f
+        color #fff
+
+        &:nth-child(2n+2)
+            background-color #363e4e
+
+.tableList
+    position absolute
+    top 46px
+    bottom 0
+    left 0
+    right 0
+    padding 15px
+    box-sizing border-box
+
+.dropDown
+    line-height 50px

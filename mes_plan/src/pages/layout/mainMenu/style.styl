@@ -1,0 +1,111 @@
+.sider
+    overflow hidden
+    height 100%
+    flex auto
+    .aside-if
+        width 116px !important
+        height 100%
+        background-color #363e4f
+        overflow hidden
+        .first-item-logo
+            height 86px
+            border-bottom 1px solid rgba(100,107,122,.3)
+            img 
+                width 50px
+                height 50px
+                margin 20px 0 0 35px
+                background-color #ffffff
+                border-radius 50%
+        .menu
+            width 116px
+            background-color #363e4f
+            border-right none 
+            .menu-item 
+                height 90px
+                line-height 90px
+                font-size 14px
+                padding 0 20px
+                cursor pointer
+                box-sizing border-box
+                white-space nowrap
+                list-style none
+                position relative
+                &:hover
+                    background-color #409EFF
+                    outline 0 
+                .icon-font  
+                    font-size 30px
+                    line-height 30px
+                    position absolute   
+                    left 50%
+                    top 18px
+                    transform translateX(-50%)
+                    color #FFFFFF
+                    text-align center
+                    font-family 'iconfont'
+                    font-style normal
+                .title
+                    height 30px
+                    position absolute
+                    top 50px
+                    left 50%
+                    transform translateX(-50%)
+                    color #ffffff
+                    text-align center
+                    line-height 30px   
+            .is-active
+                background-color #409EFF
+
+.aside-else
+    width 78px !important
+    height 100%
+    transition width .2s
+    background-color #363e4f
+    position fixed
+    left 0
+    top 0
+    z-index 1025
+    overflow hidden
+    .first-item-logo
+        height 50px
+        border-bottom 1px solid rgba(100,107,122,.3)
+        img 
+            width 36px
+            height 36px
+            position absolute
+            left 50%
+            top 7px
+            transform translateX(-50%)
+            background-color #ffffff
+            border-radius 50%
+    .menu
+        width 78px
+        background-color #363e4f
+        border-right none 
+        .menu-item 
+            height 78px
+            line-height 78px
+            font-size 14px
+            padding 0 20px
+            cursor pointer
+            box-sizing border-box
+            white-space nowrap
+            list-style none
+            position relative
+            &:hover
+                background-color #409EFF
+                outline 0 
+            .icon-font
+                font-size 34px
+                line-height 34px
+                position absolute   
+                left 50%
+                top 18px
+                transform translateX(-50%)
+                color #FFFFFF
+                text-align center
+                font-family 'iconfont' 
+                font-style normal
+        .is-active
+                background-color #409EFF
+    

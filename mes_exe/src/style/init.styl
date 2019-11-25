@@ -1,0 +1,186 @@
+@import './var.styl'
+/* ----- Initial ----- */
+html, body, #app
+    height 100%
+    -webkit-tap-highlight-color transparent
+
+html
+    -moz-text-size-adjust 100%
+    -webkit-text-size-adjust 100%
+    color -internal-root-color
+
+body
+    margin 0
+    font-family -apple-system-font, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+    -webkit-font-smoothing antialiased
+    -moz-osx-font-smoothing grayscale
+    color $color-body
+    font-size $font-body
+
+for i in 1 2 3 4 5
+    h{i}
+        margin 0
+        font-weight normal
+
+.clearfix
+    &:before, &:after
+        display table
+        content ''
+
+    &:after
+        clear both
+
+a
+    color $color-blue
+    cursor pointer
+
+.middle:before
+    content ''
+    height 100%
+    display inline-block
+    vertical-align middle
+
+/* ----- Element-ui ----- */
+.el-button
+    font-size $font-body
+    background-color #fafafa
+
+    &--primary
+        background-color #409eff
+
+    &--danger
+        background-color #f56c6c
+
+    .iconfont
+        font-size 20px
+        line-height 0
+        vertical-align -3px
+        margin-right 8px
+
+.el-input
+    vertical-align middle
+
+.el-dialog
+    margin-top 4%!important
+    height 84%
+    margin-bottom 0
+    width 80%
+    display flex
+    flex-flow column nowrap
+
+    .el-dialog__title
+        font-size $font-head
+
+    .el-dialog__body
+        display flex
+        flex-flow column nowrap
+        flex auto
+        font-size $font-body
+        padding 20px
+
+        h3
+            $font-title()
+            margin-bottom 32px
+            position relative
+            padding-left 16px
+
+            &:before
+                content ''
+                position absolute
+                height 80%
+                background-color $color-blue
+                width 4px
+                top 10%
+                left 0
+
+            .error
+                color $color-red
+                margin-left 20px
+
+        p
+            margin-top 0
+            margin-bottom 24px
+
+            span + span
+                margin-left 48px
+
+            span
+                .el-input
+                    width 240px
+
+    .el-dialog__headerbtn
+        font-size 30px
+        margin-top -8px
+        margin-right -8px
+
+    .el-step.is-horizontal
+        margin-bottom 10px
+
+.el-table
+    font-size $font-body
+
+    tr.current-row
+        & > td
+            background-color $color-blue
+            color #fff
+            border-right-color lighten($color-blue, 10%)
+
+        &.hover-row > td,
+        &:hover > td
+            background-color darken($color-blue, 10%)
+
+.el-step
+    .el-step__head,
+    .el-step__title
+        &.is-success
+            color $color-blue
+            border-color $color-blue
+
+.dialogForm
+    .el-form-item
+        width 100%
+
+    .el-form-item__label
+        width 100px
+
+    .el-form-item__content
+        width calc(100% - 100px)
+
+    .el-input,.el-select
+        width 100%!important
+
+    $unitCodeWidth = 50px
+    .unitCode
+        width $unitCodeWidth
+        text-align right
+        display inline-block
+
+    .unitNo
+        width 'calc(100% - %s)!important' % $unitCodeWidth
+
+.twoRow
+    flex auto
+    display flex
+    flex-flow column nowrap
+
+    &-item
+        flex auto
+        position relative
+
+        & + &
+            margin-top 20px
+
+h3.title
+    $font-title()
+    margin-bottom 32px
+    position relative
+    padding-left 16px
+
+    &:before
+        content ''
+        position absolute
+        height 80%
+        background-color $color-blue
+        width 4px
+        top 10%
+        left 0

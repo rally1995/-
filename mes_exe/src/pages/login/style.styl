@@ -1,0 +1,79 @@
+.bg
+    height 100%
+    background-image url('~@/assets/login_bg.jpg')
+    background-position center
+    background-size cover
+
+.panel
+    width 40vw
+    min-width 350px
+    border-radius 10px
+    box-sizing border-box
+    overflow hidden
+    margin 25vh auto 0
+    box-shadow 0 0 30px #000
+    position relative
+
+    &:before
+        content ''
+        display block
+        position absolute
+        width 20vw
+        height 20vw
+        border-style solid
+        border-color rgba(150, 160, 220, .25)
+        border-width 70vw 0 0 70vw
+        bottom -8vw
+        left 50%
+        transform rotate(45deg)
+        margin-left -45.5vw
+        box-shadow inset 0 0 30px #000
+
+    h1
+        font-size 16px
+        text-align center
+        color #fff
+        line-height 44px
+        height 44px
+        border-bottom 1px solid #fff
+
+        span
+            border-bottom 1px solid $color-blue
+            display inline-block
+
+    &-form
+        padding 24px 40px
+
+    &-btn
+        width 100%
+
+        span + span
+            margin-left 30px
+
+    &-note
+        color #fff
+        text-align center
+
+        &.red
+            color $color-red
+            font-weight 500
+
+.footer
+    width 100%
+    position fixed
+    bottom 0
+    left 0
+    color #fff
+    text-align center
+    line-height 30px
+
+.valid
+    
+    &-input
+        width calc(100% - 116px)
+
+    &-img
+        margin-left 16px
+        vertical-align middle
+        width 100px
+        height 40px

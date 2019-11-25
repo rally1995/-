@@ -1,0 +1,94 @@
+
+* >>> td:nth-child(4)
+    span
+        display block
+        width 20px
+        height 20px
+        border-radius 50%
+        &.blue
+            background-color #1890ff
+        &.orange
+             background-color #ff6633
+.bindPa >>>
+    .frame-content
+        .frame-table
+            height 95px
+.pallentool >>>
+    margin-top 0
+    .frame-toolbar
+        border-bottom none
+        h2
+            &:before
+                background #fff
+    .tools
+        background #fff
+        border-style none
+        border-color #fff
+        border-width 0
+        border-top 1px dashed #dbdbdb
+        &:last-child
+            padding-top 20px
+.first >>> .tools
+        padding 7px 15px
+        display flex
+        justify-content space-between
+        align-items center
+        button
+            background-color #409EFF
+            color #fff
+            border none
+        .disabled
+            cursor not-allowed
+            color #b7becd
+            background-color #f5f5f5
+            border 1px solid #ccc
+
+.formSource 
+    flex auto
+//     display flex
+//     .el-form-item
+//         margin-bottom 0
+//         .el-form-item__content
+//             display flex
+//             align-items center
+//             .el-radio
+//                 margin-right 15px
+//                 line-height 2
+//             .pallent
+//                 display inline-block
+//                 width 80px
+//                 font-size 14px
+//                 color #606266
+//                 line-height 1
+.twoSide
+    height 50%
+    width 100%
+    display flex
+    justify-content space-between
+    flex-direction: row
+    flex-wrap nowrap
+    margin-top 5px
+    padding-bottom 10px
+    .el-icon-delete
+        font-size 15px
+    .frame
+        .tableWrap
+            height 240px
+    .frame:first-child
+         width 580px
+        .tableWrap
+            height 100%
+        .submitButton
+            float right
+            margin-top 10px
+    & > *
+        width 100% // calc
+        margin-left 5px
+        margin-top 0
+
+        &:first-child
+            margin-left 0px
+            heigth 90%
+    .frame + .frame
+        margin-top 0
+        width 420px

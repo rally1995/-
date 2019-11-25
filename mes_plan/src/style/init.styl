@@ -1,0 +1,53 @@
+@import './var.styl';
+html, body, #app
+    height 100%
+
+body
+    margin 0
+    font-family "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+    -webkit-font-smoothing antialiased
+    -moz-osx-font-smoothing grayscale
+    min-width 992px
+
+for i in 1..5
+    h{i}
+        margin 0
+        font-weight normal
+
+.clearfix
+    &:before, &:after
+        display table
+        content ''
+
+    &:after
+        clear both
+
+a
+    color $color-blue
+    cursor pointer
+
+.el-dialog
+    width $dialog-width
+
+.frame-table
+    .el-scrollbar
+        height 100%
+
+        .el-scrollbar__wrap
+            overflow-x hidden
+
+.cell-edition-item
+    & .el-input__suffix-inner,
+    & .el-input__icon
+        pointer-events none
+
+.el-textarea .el-input__count
+    background-color transparent
+    right 18px
+
+.text-breaks,
+.text-breaks *
+    white-space pre!important
+
+.halfHeight
+    height 50%

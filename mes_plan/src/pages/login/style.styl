@@ -1,0 +1,168 @@
+.login-container
+    width 100%
+    height 100%
+    &-weaper
+        position absolute
+        bottom 212px
+        top 70px
+        width 100%
+        height auto
+        background url(../../assets/login.png) no-repeat center
+        .login-weaper
+            position absolute
+            width 100%
+            top 18%
+            height 500px
+            .login-border
+                width 50%
+                height auto
+                float right
+                box-sizing border-box
+                .login-main
+                    margin 0 auto
+                    width 386px
+                    height 430px
+                    box-sizing border-box
+                    border 1px solid #fbfbfb
+                    background-color #ffffff
+                    border-radius 5px
+                    box-shadow 1px 1px #DFDFDF
+                    .login-title
+                        display flex
+                        justify-content center
+                        align-items center
+                        margin-bottom 34px
+                        font-weight 500
+                        font-size 20px
+                        text-align center
+                        line-height 62px
+                        color #333333
+                        border-bottom 1px solid #ebebeb
+                        img
+                            width 26px
+                            height 26px
+                            margin-right 10px
+    &-header
+        width 100%
+        height 70px
+        background-color #ffffff
+        position absolute
+        top 0
+        .navigation-bar
+            float right
+            margin 0 54px 0 0
+            li
+                list-style none
+                width 64px
+                float left
+                line-height 70px
+                margin-left 112px
+                font-size 14px
+                text-align center
+                a
+                    display: block
+                    text-decoration none
+                    color #333333
+                    cursor pointer
+                    &:hover
+                        color #2d8cf0
+
+.router-link-exact-active
+    width 64px
+    color #2d8cf0 !important
+    border-top 3px solid #2d8cf0
+    line-height 64px
+
+
+.login-code
+    display flex
+    align-items center
+    justify-content space-around
+    img
+        width 115px
+        height 40px
+
+.login-form
+    padding 0 25px
+    .el-form-item
+        margin-bottom 30px
+        width 336px
+        height 40px
+        border-radius 6px
+        .el-input
+            input
+                padding-bottom 10px
+                text-indent 10px
+                background transparent
+                border none
+                border-radius 0
+                color #333333
+            .el-input__prefix
+                .el-input__inner
+                    padding-left 35px
+                i
+                    padding 0 10px
+
+.el-form-item >>> .el-input--small .el-input__inner
+    height 40px
+    line-height 40px
+
+.el-form-item >>> .el-input-group__prepend
+    padding 0 10px
+    background-color #f0eceb
+    color #333333
+
+.login-submit
+    display block !important
+    width 336px
+    height 48px
+    text-align center
+    border-radius 6px !important
+    border 0px
+    box-shadow rgba(152, 22, 244, 0.19) 0px 5px 10px 2px
+    color #ffffff
+    font-size 16px
+
+.login-placeholder
+    text-align center
+    font-size 14px
+    color #888888
+
+    &.red
+        color $color-red
+
+
+.footer
+    width 100%
+    height auto
+    position absolute
+    bottom 0
+    z-index -10
+    ul
+        list-style none
+        display flex
+        flex-flow row nowrap
+        justify-content space-evenly
+        margin 67px 0
+
+        li
+            height 78px
+            .footer-container
+                margin 12px 0 0 26px
+                float right
+                .footer-title
+                    font-size 20px
+                    color #333333
+                .footer-content
+                    margin-top 5px
+                    font-size 14px
+                    color #888888
+            img
+                width 78px
+                height 78px
+
+.login-code-img
+    cursor pointer
+
+
+
